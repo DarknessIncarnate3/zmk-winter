@@ -138,11 +138,11 @@
             // |      |       |       |       |2uSpace(a)|4uSpace|  N/A** |2uSpace(b)|       |       |       |       |
 
             bindings = <
-&none  &none  &none  &none  &none    &none    &none     &none     &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none    &none     &none     &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none    &none     &none     &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none    &none     &none     &none  &none  &none  &none
-&none  &none  &none  &none  &kp RET  &kp RET  &kp BSPC  &kp BSPC  &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none    &none     &none     &none          &none              &none      &none
+&none  &none  &none  &none  &none    &none    &none     &none     &none          &none              &kp ENTER  &none
+&none  &none  &none  &none  &none    &none    &none     &none     &kp BACKSPACE  &kp LC(BACKSPACE)  &none      &none
+&none  &none  &none  &none  &none    &none    &none     &none     &none          &none              &none      &none
+&none  &none  &none  &none  &kp RET  &kp RET  &kp BSPC  &kp BSPC  &none          &none              &none      &none
             >;
         };
 
