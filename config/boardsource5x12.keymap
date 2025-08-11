@@ -124,7 +124,7 @@
 &kp ESC                   &kp N1                &kp N2                  &kp N3                &kp N4     &kp N5     &kp N6         &kp N7     &kp N8                &kp N9                  &kp N0                &kp BSPC
 &kp Q                     &kp W                 &kp F                   &kp P                 &kp G      &to 0      &kp BACKSPACE  &kp J      &kp L                 &kp U                   &zHomeLayer 3 Y       &zHomeLayer 1 SEMICOLON
 &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S  &zHomeMod LEFT_GUI T  &kp D      &kp RET    &kp SQT        &kp H      &zHomeMod LEFT_GUI N  &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O
-&kp Z                     &kp X                 &zHomeMod LC(C) C       &zHomeMod LC(V) V     &kp B      &kp LBKT   &kp RBKT       &kp K      &kp M                 &kp COMMA               &kp DOT               &kp FSLH
+&kp Z                     &kp X                 &kp C                   &zHomeLayer 2 V       &kp B      &kp LBKT   &kp RBKT       &kp K      &kp M                 &kp COMMA               &kp DOT               &kp FSLH
 &kp LCTRL                 &kp LGUI              &kp LALT                &kp LEFT_SHIFT        &kp SPACE  &kp SPACE  &kp SPACE      &kp SPACE  &zFastLayer 1 ENTER   &kp LEFT                &kp DOWN              &kp RIGHT
             >;
         };
@@ -146,7 +146,7 @@
             >;
         };
 
-        layer_2 {
+        nav {
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
 &none  &none  &none  &none  &none  &to 0  &none  &none  &none     &none     &none   &none
@@ -156,7 +156,7 @@
             >;
         };
 
-        layer_3 {
+        num {
             bindings = <
 &none      &none   &none   &none   &none  &none  &none  &none  &none  &none  &none  &none
 &kp COMMA  &kp N1  &kp N2  &kp N3  &none  &to 0  &none  &none  &none  &none  &none  &none
@@ -166,13 +166,23 @@
             >;
         };
 
-        layer_4 {
+        game {
             bindings = <
 &kp ESC    &kp N2  &kp N3  &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9  &kp N0  &kp MINUS  &kp EQUAL
 &kp TAB    &kp Q   &kp W   &kp F      &kp P      &kp G      &trans     &trans     &trans  &trans  &trans     &trans
 &kp LCTRL  &kp A   &kp R   &kp S      &kp T      &kp D      &trans     &trans     &trans  &trans  &trans     &trans
 &kp LSHFT  &kp Z   &kp X   &kp C      &kp V      &kp B      &trans     &trans     &trans  &trans  &trans     &trans
 &trans     &trans  &trans  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &mo 0   &trans  &trans     &trans
+            >;
+        };
+
+        hold_repeat {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
