@@ -111,11 +111,11 @@
             // | LCTL  | LGUI | LALT | LOWR | 2uSpace(a)|4uSpace|  N/A** |2uSpace(b)| RAIS | LARW | DARW  | RARW  |
 
             bindings = <
-&kp N1     &kp N2    &kp N3    &kp N4          &kp N5     &kp ESC    &kp BSPC   &kp N6     &kp N7               &kp N8     &kp N9    &kp N0
-&kp Q      &kp W     &kp F     &kp P           &kp G      &kp HOME   &kp END    &kp J      &kp L                &kp U      &kp Y     &kp SEMI
-&kp A      &kp R     &kp S     &kp T           &kp D      &kp RET    &kp SQT    &kp H      &kp N                &kp E      &kp I     &kp O
-&kp Z      &kp X     &kp C     &kp V           &kp B      &kp LBKT   &kp RBKT   &kp K      &kp M                &kp COMMA  &kp DOT   &kp FSLH
-&kp LCTRL  &kp LGUI  &kp LALT  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &zFastLayer 1 ENTER  &kp LEFT   &kp DOWN  &kp RIGHT
+&kp N1                    &kp N2                &kp N3                  &kp N4                &kp N5     &kp ESC    &kp BSPC   &kp N6     &kp N7                &kp N8                  &kp N9                &kp N0
+&kp Q                     &kp W                 &kp F                   &kp P                 &kp G      &kp HOME   &kp END    &kp J      &kp L                 &kp U                   &kp Y                 &kp SEMI
+&zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S  &zHomeMod LEFT_GUI T  &kp D      &kp RET    &kp SQT    &kp H      &zHomeMod LEFT_GUI N  &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O
+&kp Z                     &kp X                 &kp C                   &kp V                 &kp B      &kp LBKT   &kp RBKT   &kp K      &kp M                 &kp COMMA               &kp DOT               &kp FSLH
+&kp LCTRL                 &kp LGUI              &kp LALT                &kp LEFT_SHIFT        &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &zFastLayer 1 ENTER   &kp LEFT                &kp DOWN              &kp RIGHT
             >;
         };
 
