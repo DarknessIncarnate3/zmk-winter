@@ -47,7 +47,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <200>;
             flavor = "tap-preferred";
         };
     };
@@ -125,7 +125,7 @@
 &kp Q                     &kp W                 &kp F                   &kp P                 &kp G      &to 0      &kp BACKSPACE  &kp J      &kp L                 &kp U                   &zHomeLayer 3 Y       &zHomeLayer 1 SEMICOLON
 &zHomeMod LEFT_CONTROL A  &zHomeMod LEFT_ALT R  &zHomeMod LEFT_SHIFT S  &zHomeMod LEFT_GUI T  &kp D      &kp RET    &kp SQT        &kp H      &zHomeMod LEFT_GUI N  &zHomeMod LEFT_SHIFT E  &zHomeMod LEFT_ALT I  &zHomeMod LEFT_CONTROL O
 &zHomeLayer 5 Z           &kp X                 &kp C                   &zHomeLayer 2 V       &kp B      &kp LBKT   &kp RBKT       &kp K      &kp M                 &kp COMMA               &kp DOT               &zHomeLayer 5 SLASH
-&kp LCTRL                 &kp LGUI              &to 3                   &kp LEFT_SHIFT        &kp SPACE  &kp SPACE  &kp SPACE      &kp SPACE  &zFastLayer 1 ENTER   &to 3                   &kp DOWN              &kp RIGHT
+&none                     &none                 &to 3                   &kp LEFT_SHIFT        &kp SPACE  &kp SPACE  &kp SPACE      &kp SPACE  &zFastLayer 1 ENTER   &to 3                   &none                 &none
             >;
         };
 
