@@ -10,156 +10,14 @@
 
 / {
     behaviors {
-        tdn5: tap_dance_n5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N5";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N5>, <&kp PRCNT>;
-        };
+        cLayer: cLayer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CLAYER";
+            bindings = <&mo>, <&kp>;
 
-        tdn6: tap_dance_n6 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N6";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N6>, <&kp CARET>;
-        };
-
-        tdn7: tap_dance_n7 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N7";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N7>, <&kp AMPS>;
-        };
-
-        tdn8: tap_dance_n8 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N8";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N8>, <&kp ASTRK>;
-        };
-
-        tdn9: tap_dance_n9 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N9";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N9>, <&kp LPAR>;
-        };
-
-        tdn0: tap_dance_n0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_N0";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp N0>, <&kp RPAR>;
-        };
-
-        tdlshft: tap_dance_lshft {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_LSHFT";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp LSHFT>, <&kp CAPS>;
-        };
-
-        tdminus: tap_dance_minus {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MINUS";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp MINUS>, <&kp UNDER>;
-        };
-
-        tdequal: tap_dance_equal {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_EQUAL";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp EQUAL>, <&kp PLUS>;
-        };
-
-        tdlbkt: tap_dance_lbkt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_LBKT";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp LBKT>, <&kp LBRC>;
-        };
-
-        tdrbkt: tap_dance_rbkt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_RBKT";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp RBKT>, <&kp RBRC>;
-        };
-
-        tdfslh: tap_dance_fslh {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_FSLH";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp FSLH>, <&kp QMARK>;
-        };
-
-        tdbslh: tap_dance_bslh {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_BSLH";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp BSLH>, <&kp PIPE>;
-        };
-
-        tdgrave: tap_dance_grave {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_GRAVE";
-            #binding-cells = <0>;
-            tapping-term-ms = <380>;
-            bindings = <&kp GRAVE>, <&kp TILDE>;
-        };
-
-        tdcomma: tap_dance_comma {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_COMMA";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp COMMA>, <&kp LT>;
-        };
-
-        tddot: tap_dance_dot {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_DOT";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp DOT>, <&kp GT>;
-        };
-
-        tdsqt: tap_dance_sqt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SQT";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp APOS>, <&kp DQT>;
-        };
-
-        tdsemi: tap_dance_semi {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_SEMI";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp SEMI>, <&kp COLON>;
-        };
-
-        tdvoldn: tap_dance_voldn {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_VOLDN";
-            #binding-cells = <0>;
-            tapping-term-ms = <180>;
-            bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-while-undecided;
         };
     };
 
@@ -249,11 +107,11 @@
             // |        |       |       | LOWR  |2uSpace(a)|4uSpace|  N/A** |2uSpace(b)| RAIS |      |       |       |
 
             bindings = <
-&kp F11   &kp F1   &kp F2    &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8   &kp F9   &kp F10   &kp F12
-&none     &kp INS  &kp HOME  &kp PG_UP  &lgui_e    &none      &none      &none      &none    &none    &tdminus  &tdequal
-&lgui_d   &kp DEL  &kp END   &kp PG_DN  &none      &none      &none      &none      &none    &none    &none     &none
-&kp CAPS  &none    &none     &none      &none      &none      &none      &none      &tdlbkt  &tdrbkt  &none     &tdbslh
-&none     &none    &none     &mo 1      &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &mo 2    &none    &none     &none
+&kp F11   &kp F1   &kp F2    &kp F3     &kp F4     &kp F5     &kp F6     &kp F7     &kp F8  &kp F9  &kp F10  &kp F12
+&none     &kp INS  &kp HOME  &kp PG_UP  &lgui_e    &none      &none      &none      &none   &none   &none    &none
+&lgui_d   &kp DEL  &kp END   &kp PG_DN  &none      &none      &none      &none      &none   &none   &none    &none
+&kp CAPS  &none    &none     &none      &none      &none      &none      &none      &none   &none   &none    &none
+&none     &none    &none     &mo 1      &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &mo 2   &none   &none    &none
             >;
         };
 
@@ -266,11 +124,11 @@
             // | C_A_D |   .   |   0   | LOWR  |2uSpace(a)|4uSpace|  N/A** |2uSpace(b)| RAIS | PREV | VOL DN*|   NEXT   |
 
             bindings = <
-&lgui_shft_s     &kp PSCRN   &none      &none      &bt BT_NXT  &bt BT_CLR  &none      &none      &none    &none          &none            &kp DEL
-&ctrl_shift_esc  &kp KP_N7   &kp KP_N8  &kp KP_N9  &none       &none       &none      &none      &none    &kp KP_PLUS    &tdminus         &tdequal
-&none            &kp KP_N4   &kp KP_N5  &kp KP_N6  &none       &none       &none      &none      &none    &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_ENTER
-&none            &kp KP_N1   &kp KP_N2  &kp KP_N3  &none       &none       &none      &none      &tdlbkt  &tdrbkt        &kp C_VOL_UP     &tdbslh
-&ctrl_alt_del    &kp KP_DOT  &kp KP_N0  &mo 1      &kp SPACE   &kp SPACE   &kp SPACE  &kp SPACE  &mo 2    &kp C_PREV     &tdvoldn         &kp C_NEXT
+&lgui_shft_s     &kp PSCRN   &none      &none      &bt BT_NXT  &bt BT_CLR  &none      &none      &none  &none          &none            &kp DEL
+&ctrl_shift_esc  &kp KP_N7   &kp KP_N8  &kp KP_N9  &none       &none       &none      &none      &none  &kp KP_PLUS    &none            &none
+&none            &kp KP_N4   &kp KP_N5  &kp KP_N6  &none       &none       &none      &none      &none  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_ENTER
+&none            &kp KP_N1   &kp KP_N2  &kp KP_N3  &none       &none       &none      &none      &none  &none          &kp C_VOL_UP     &none
+&ctrl_alt_del    &kp KP_DOT  &kp KP_N0  &mo 1      &kp SPACE   &kp SPACE   &kp SPACE  &kp SPACE  &mo 2  &kp C_PREV     &none            &kp C_NEXT
             >;
         };
 
