@@ -19,7 +19,7 @@
             hold-while-undecided;
         };
 
-        zFastLayer: zFastLayer {
+        zFastLayer: zFastLayera {
             compatible = "zmk,behavior-hold-tap";
             label = "ZFASTLAYER";
             bindings = <&mo>, <&kp>;
