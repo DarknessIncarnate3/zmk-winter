@@ -19,7 +19,7 @@
             hold-while-undecided;
         };
 
-        zFastLayer: zFastLayera {
+        zFastLayer: zFastLayer {
             compatible = "zmk,behavior-hold-tap";
             label = "ZFASTLAYER";
             bindings = <&mo>, <&kp>;
@@ -96,16 +96,6 @@ xTab: xTab {
         #binding-cells = <0>;
         tapping-term-ms = <300>;
         bindings = <&out OUT_BLE>, <&out OUT_USB>;
-    };
-
-    zFastLayer: zFastLayer {
-        compatible = "zmk,behavior-hold-tap";
-        label = "ZFASTLAYER";
-        bindings = <&mo>, <&kp>;
-
-        #binding-cells = <2>;
-        hold-while-undecided;
-        tapping-term-ms = <200>;
     };
 
     xF4: xF4 {
