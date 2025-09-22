@@ -14,178 +14,218 @@
 
 / {
     behaviors {
-        cLayer: cLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "CLAYER";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            hold-while-undecided;
-        };
-
-        zFastLayer: zFastLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZFASTLAYER";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            hold-while-undecided;
-        };
-
         zHomeMod: zHomeMod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZHOMEMOD";
-            bindings = <&kp>, <&kp>;
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOMEMOD";
+        bindings = <&kp>, <&kp>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <130>;
+    };
 
-        zHomeLayer: zHomeLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZHOMELAYER";
-            bindings = <&mo>, <&kp>;
+    zHomeLayer: zHomeLayer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOMELAYER";
+        bindings = <&mo>, <&kp>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <130>;
+    };
 
-        xTab: xTab {
-            compatible = "zmk,behavior-mod-morph";
-            label = "XTAB";
-            bindings = <&kp LEFT_WIN>, <&kp TAB>;
+    xTab: xTab {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XTAB";
+        bindings = <&kp LEFT_WIN>, <&kp TAB>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LALT|MOD_RCTL)>;
-            keep-mods = <(MOD_LALT)>;
-        };
+        #binding-cells = <0>;
+        mods = <(MOD_LALT|MOD_RCTL)>;
+        keep-mods = <(MOD_LALT)>;
+    };
 
-        xShiftonSpace: xShiftonSpace {
-            compatible = "zmk,behavior-mod-morph";
-            label = "XSHIFTONSPACE";
-            bindings = <&kp SPACE>, <&zFast_Mod LEFT_SHIFT SPACE>;
+    xShiftonSpace: xShiftonSpace {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XSHIFTONSPACE";
+        bindings = <&kp SPACE>, <&zFast_Mod LEFT_SHIFT SPACE>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
-            keep-mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
-        };
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+        keep-mods = <(MOD_LCTL|MOD_LGUI|MOD_LALT)>;
+    };
 
-        xEntertab: xEntertab {
-            compatible = "zmk,behavior-mod-morph";
-            label = "XENTERTAB";
-            bindings = <&zFast_Mod LGUI ENTER>, <&kp TAB>;
+    xEntertab: xEntertab {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XENTERTAB";
+        bindings = <&zFast_Mod LGUI ENTER>, <&kp TAB>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-            keep-mods = <(MOD_LALT)>;
-        };
+        #binding-cells = <0>;
+        mods = <(MOD_LALT)>;
+        keep-mods = <(MOD_LALT)>;
+    };
 
-        ySpacecap: ySpacecap {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YSPACECAP";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE>, <&caps_word>;
+    ySpacecap: ySpacecap {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YSPACECAP";
+        #binding-cells = <0>;
+        bindings = <&kp SPACE>, <&caps_word>;
 
-            tapping-term-ms = <200>;
-        };
+        tapping-term-ms = <200>;
+    };
 
-        yOutput: yOutput {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YOUTPUT";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&out OUT_BLE>, <&out OUT_USB>;
-        };
+    yOutput: yOutput {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YOUTPUT";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        bindings = <&out OUT_BLE>, <&out OUT_USB>;
+    };
 
-        xF4: xF4 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "XF4";
-            bindings = <&zFast_Mod LEFT_SHIFT MINUS>, <&kp F4>;
+    zFastLayer: zFastLayer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZFASTLAYER";
+        bindings = <&mo>, <&kp>;
 
-            #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-            keep-mods = <(MOD_LALT)>;
-        };
+        #binding-cells = <2>;
+        hold-while-undecided;
+        tapping-term-ms = <200>;
+    };
 
-        yPower: yPower {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YPOWER";
-            #binding-cells = <0>;
-            bindings = <&ext_power EP_ON>, <&ext_power EP_OFF>;
+    xF4: xF4 {
+        compatible = "zmk,behavior-mod-morph";
+        label = "XF4";
+        bindings = <&zFast_Mod LEFT_SHIFT MINUS>, <&kp F4>;
 
-            tapping-term-ms = <300>;
-        };
+        #binding-cells = <0>;
+        mods = <(MOD_LALT)>;
+        keep-mods = <(MOD_LALT)>;
+    };
 
-        yBtClear: yBtClear {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YBTCLEAR";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&none>, <&none>, <&bt BT_CLR>;
-        };
+    yPower: yPower {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YPOWER";
+        #binding-cells = <0>;
+        bindings = <&ext_power EP_ON>, <&ext_power EP_OFF>;
 
-        zFast_Mod: zFast_Mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ZFAST_MOD";
-            bindings = <&kp>, <&kp>;
+        tapping-term-ms = <300>;
+    };
 
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            hold-while-undecided;
-        };
+    yBtClear: yBtClear {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YBTCLEAR";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        bindings = <&none>, <&none>, <&bt BT_CLR>;
+    };
 
-        yOff: yOff {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YOFF";
-            #binding-cells = <0>;
-            bindings = <&kp LG(L)>, <&soft_off>;
+    zFast_Mod: zFast_Mod {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZFAST_MOD";
+        bindings = <&kp>, <&kp>;
 
-            tapping-term-ms = <300>;
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        hold-while-undecided;
+    };
 
-        yBacklight: yBacklight {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YBACKLIGHT";
-            #binding-cells = <0>;
-            bindings = <&bl BL_ON>, <&bl BL_OFF>;
-        };
+    yOff: yOff {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YOFF";
+        #binding-cells = <0>;
+        bindings = <&kp LG(L)>, <&soft_off>;
 
-        yColour: yColour {
-            compatible = "zmk,behavior-tap-dance";
-            label = "YCOLOUR";
-            #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings =
-                <&rgb_ug RGB_COLOR_HSB(0,0,58)>,
-                <&rgb_ug RGB_COLOR_HSB(269,87,84)>,
-                <&rgb_ug RGB_COLOR_HSB(173,36,27)>;
-        };
+        tapping-term-ms = <300>;
+    };
 
-        stickylayer: stickylayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "STICKYLAYER";
-            bindings = <&mo>, <&sl>;
+    yBacklight: yBacklight {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YBACKLIGHT";
+        #binding-cells = <0>;
+        bindings = <&bl BL_ON>, <&bl BL_OFF>;
+    };
 
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            hold-while-undecided;
-        };
+    yColour: yColour {
+        compatible = "zmk,behavior-tap-dance";
+        label = "YCOLOUR";
+        #binding-cells = <0>;
+        tapping-term-ms = <300>;
+        bindings =
+            <&rgb_ug RGB_COLOR_HSB(0,0,58)>,
+            <&rgb_ug RGB_COLOR_HSB(269,87,84)>,
+            <&rgb_ug RGB_COLOR_HSB(173,36,27)>;
+    };
 
-        z2layer: z2layer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "Z2LAYER";
-            bindings = <&mo>, <&to>;
+    stickylayer: stickylayer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "STICKYLAYER";
+        bindings = <&mo>, <&sl>;
 
-            #binding-cells = <2>;
-            hold-while-undecided;
-            tapping-term-ms = <200>;
-        };
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        hold-while-undecided;
+    };
+
+    z2layer: z2layer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "Z2LAYER";
+        bindings = <&mo>, <&to>;
+
+        #binding-cells = <2>;
+        hold-while-undecided;
+        tapping-term-ms = <200>;
+    };
+
+    zSlowLayer: zSlowLayer {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZSLOWLAYER";
+        bindings = <&mo>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <180>;
+        quick-tap-ms = <150>;
+        flavor = "tap-preferred";
+    };
+
+    zHome_alt: zHome_alt {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOME_ALT";
+        bindings = <&alt_modlayer>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <130>;
+    };
+
+    zHome_ctrl: zHome_ctrl {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOME_CTRL";
+        bindings = <&ctrl_modlayer>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <130>;
+    };
+
+    zHome_gui: zHome_gui {
+        compatible = "zmk,behavior-hold-tap";
+        label = "ZHOME_GUI";
+        bindings = <&gui_modlayer>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <250>;
+        quick-tap-ms = <200>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <130>;
+    };
+
     };
 
     macros {
