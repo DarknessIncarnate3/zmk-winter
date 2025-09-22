@@ -287,7 +287,7 @@
 
         sym {
             bindings = <
-&kp                &kp          &kp             &kp                  &kp                   &kp          &kp              &kp                   &kp                    &kp         &kp            &kp
+&kp ESC            &kp N1       &kp N2          &kp N3               &kp N4                &kp N5       &kp N6           &kp N7                &kp N8                 &kp N9      &kp N0         &kp BSPC
 &kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN        &kp GREATER_THAN      &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON  &kp
 &kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp ASTERISK   &kp SQT
 &kp                &kp HASH     &kp UNDERSCORE  &kp AMPERSAND        &kp NON_US_BACKSLASH  &kp GRAVE    &kp TILDE        &kp SLASH             &kp COMMA              &kp PERIOD  &kp QUESTION   &kp
