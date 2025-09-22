@@ -291,7 +291,7 @@
 &kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN     &kp GREATER_THAN      &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON  &kp
 &kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp ASTERISK   &kp SQT
 &kp                &kp HASH     &kp UNDERSCORE  &kp AMPERSAND     &kp NON_US_BACKSLASH  &kp GRAVE    &kp TILDE        &kp SLASH             &kp COMMA              &kp PERIOD  &kp QUESTION   &kp
-&kp                &kp          &kp             &kp               &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &kp                    &kp         &kp            &kp
+&kp                &kp          &kp             &kp               &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &kp LEFT_SHIFT         &kp         &kp            &kp
             >;
         };
 
