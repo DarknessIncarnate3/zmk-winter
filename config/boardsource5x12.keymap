@@ -287,11 +287,11 @@
 
         sym {
             bindings = <
-&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp        &kp            &kp
-&kp TAB  &kp PERCENT  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS  &kp PIPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
-&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp LEFT               &kp DOWN   &kp UP         &kp RIGHT
-&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp        &kp            &kp
-&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp        &kp            &kp
+&kp                &kp          &kp         &kp               &kp                &kp          &kp              &kp                   &kp                    &kp        &kp            &kp
+&kp TAB            &kp PERCENT  &kp MINUS   &kp LESS_THAN     &kp GREATER_THAN   &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMICOLON  &kp
+&kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &kp ASTERISK   &kp SQT
+&kp                &kp HASH     &kp         &kp               &kp                &kp          &kp              &kp                   &kp                    &kp        &kp            &kp
+&kp                &kp          &kp         &kp               &kp                &kp          &kp              &kp                   &kp                    &kp        &kp            &kp
             >;
         };
 
