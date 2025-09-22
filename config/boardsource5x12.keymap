@@ -297,11 +297,11 @@
 
         num {
             bindings = <
-&none      &none      &none   &none   &none                &none                &none         &none     &none      &none      &none      &none
-&kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3               &kp LC(X)            &kp ASTERISK  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &none
-&kp LSHFT  &kp N0     &kp N4  &kp N5  &kp N6               &kp LC(C)            &kp PLUS      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp FSLH
-&kp LALT   &kp DOT    &kp N7  &kp N8  &kp N9               &kp LC(V)            &kp MINUS     &none     &none      &none      &none      &none
-&none      &none      &none   &none   &zFastLayer 8 ENTER  &zFastLayer 8 ENTER  &to 0         &to 0     &none      &none      &none      &to 6
+&none      &none      &none   &none   &none                &none                &none         &none     &none                        &none         &none      &none
+&kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3               &kp LC(X)            &kp ASTERISK  &kp HOME  &kp PG_DN                    &kp PG_UP     &kp END    &none
+&kp LSHFT  &kp N0     &kp N4  &kp N5  &kp N6               &kp LC(C)            &kp PLUS      &kp LEFT  &kp DOWN                     &kp UP        &kp RIGHT  &kp FSLH
+&kp LALT   &kp DOT    &kp N7  &kp N8  &kp N9               &kp LC(V)            &kp MINUS     &none     &none                        &none         &none      &none
+&none      &none      &none   &none   &zFastLayer 8 ENTER  &zFastLayer 8 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &to 6
             >;
         };
 
