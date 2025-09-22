@@ -15,7 +15,7 @@
 / {
     behaviors {
 };
-        zHomeMod: zHomeMod {
+    zHomeMod: zHomeMod {
         compatible = "zmk,behavior-hold-tap";
         label = "ZHOMEMOD";
         bindings = <&kp>, <&kp>;
@@ -225,6 +225,296 @@
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
         require-prior-idle-ms = <130>;
+    };
+
+ combos {
+        compatible = "zmk,combos";
+
+        paren_open {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <8 9>;
+            layers = <5 0 4 3>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+        };
+
+        paren_close {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 10>;
+            layers = <5 0 4 3>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+        };
+
+        quote_all {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <10 8>;
+            layers = <5 0 4 3>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+        };
+
+        brace_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <23 24>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        brace_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <24 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <32 31>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <37 39>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        meta {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <7 8>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        meta2 {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <5 4>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <23 25 24>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        percentage {
+            bindings = <&kp PERCENT>;
+            key-positions = <37 39 38>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <23 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4>;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <17 15>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <2 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <30 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        divide {
+            bindings = <&kp SLASH>;
+            key-positions = <30 31>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        greater {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <3 4>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 2>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        bracket_close {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <17 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        bracket_open {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 15>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <26 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <1 2>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 15>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <22 23>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        shift2 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <18 17>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        alt2 {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <36 37>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <33 32>;
+            timeout-ms = <30>;
+            slow-release;
+            require-prior-idle-ms = <5>;
+            layers = <5 0 4 3>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
+        };
+
+        alt_modlayer: alt_modlayer {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 11>,
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LALT>,
+                <&macro_release>,
+                <&mo 11>;
+        };
+
+        ctrl_modlayer: ctrl_modlayer {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 13>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>,
+                <&macro_release>,
+                <&mo 13>;
+
+            label = "CTRL_MODLAYER";
+        };
+
+        gui_modlayer: gui_modlayer {
+            compatible = "zmk,behavior-macro";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 14>,
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_GUI>,
+                <&macro_release>,
+                <&mo 14>;
+
+            label = "GUI_MODLAYER";
+        };
     };
 
     keymap {
