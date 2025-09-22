@@ -287,11 +287,11 @@
 
         sym {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &to 0  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
+&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp       &kp     &kp
+&kp TAB  &kp PERCENT  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS  &kp PIPE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp       &kp     &kp
+&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp LEFT               &kp DOWN  &kp UP  &kp RIGHT
+&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp       &kp     &kp
+&kp      &kp          &kp        &kp            &kp               &kp       &kp       &kp                   &kp                    &kp       &kp     &kp
             >;
         };
 
