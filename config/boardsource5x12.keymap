@@ -14,6 +14,7 @@
 
 / {
     behaviors {
+};
         zHomeMod: zHomeMod {
         compatible = "zmk,behavior-hold-tap";
         label = "ZHOMEMOD";
@@ -224,65 +225,6 @@
         quick-tap-ms = <200>;
         flavor = "tap-preferred";
         require-prior-idle-ms = <130>;
-    };
-
-    };
-
-    macros {
-        ctrl_alt_del: ctrl_alt_del {
-            label = "ZM_ctrl_alt_del";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL &kp LALT &kp DEL>,
-                <&macro_release>,
-                <&kp LCTRL &kp LALT &kp DEL>;
-        };
-
-        ctrl_shift_esc: ctrl_shift_esc {
-            label = "ZM_ctrl_shift_esc";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL &kp LSHIFT &kp ESC>,
-                <&macro_release>,
-                <&kp LCTRL &kp LSHIFT &kp ESC>;
-        };
-
-        lgui_d: lgui_d {
-            label = "ZM_lgui_d";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI &kp D>,
-                <&macro_release>,
-                <&kp LGUI &kp D>;
-        };
-
-        lgui_shft_s: lgui_shft_s {
-            label = "ZM_lgui_shft_s";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI &kp LSHFT &kp S>,
-                <&macro_release>,
-                <&kp LGUI &kp LSHFT &kp S>;
-        };
-
-        lgui_e: lgui_e {
-            label = "ZM_lgui_e";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LGUI &kp E>,
-                <&macro_release>,
-                <&kp LGUI &kp E>;
-        };
     };
 
     keymap {
