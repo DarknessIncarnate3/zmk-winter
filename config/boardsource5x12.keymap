@@ -532,8 +532,8 @@
             bindings = <
 &kp ESC    &kp N1                    &kp N2           &kp N3           &kp N4                &kp N5     &kp N6   &kp N7                &kp N8           &kp N9           &kp N0                    &kp BSPC
 &kp TAB    &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F   &zHomeLayer 7 P       &kp G      &kp J    &kp L                 &kp U            &kp Y            &zHomeLayer 8 SEMICOLON   &kp BSLH
-&kp LCTRL  &zHomeMod LEFT_CONTROL A  &zHomeLayer 4 R  &zHomeLayer 3 S  &zHomeMod LEFT_GUI T  &kp D      &kp H    &zHomeMod LEFT_GUI N  &zHomeLayer 3 E  &zHomeLayer 4 I  &zHomeMod LEFT_CONTROL O  &kp SQT
-&kp LSHFT  &zHomeLayer 5 Z           &kp X            &kp C            &kp V                 &kp B      &kp K    &kp M                 &kp COMMA        &kp DOT          &kp FSLH                  &kp GRAVE
+&kp LCTRL  &zHomeMod LEFT_CONTROL A  &zHomeLayer 4 R  &zHomeLayer 3 S  &zHomeMod LEFT_GUI T  &kp D      &kp H    &zHomeMod LEFT_GUI N  &zHomeLayer 3 E  &zHomeLayer 4 I  &zHomeMod LEFT_CONTROL O  &zHomeLayer 7 SQT
+&kp LSHFT  &zHomeLayer 5 Z           &kp X            &kp C            &kp V                 &kp B      &kp K    &kp M                 &kp COMMA        &kp DOT          &zHomeLayer 5 SLASH       &kp GRAVE
 &none      &none                     &none            &none            &kp SPACE             &kp SPACE  &kp RET  &kp RET               &none            &to 0            &none                     &to 6
             >;
         };
