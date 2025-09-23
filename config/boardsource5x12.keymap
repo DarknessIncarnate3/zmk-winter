@@ -560,11 +560,11 @@
 
         temp_cole {
             bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3             &kp N4     &kp N5     &kp N6   &kp N7   &kp N8                &kp N9   &kp N0    &kp DELETE
-&kp TAB    &kp Q         &kp W         &kp F              &kp P      &kp G      &kp J    &kp L    &kp U                 &kp Y    &kp SEMI  &kp BACKSPACE
-&kp LCTRL  &kp A         &kp R         &kp S              &kp T      &kp D      &kp H    &kp N    &kp E                 &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp K    &kp M    &kp COMMA             &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &to 0     &zFastLayer 7 PLUS
+&kp ESC    &kp N1        &kp N2        &kp N3             &kp N4     &kp N5     &kp N6                       &kp N7                       &kp N8                &kp N9   &kp N0    &kp DELETE
+&kp TAB    &kp Q         &kp W         &kp F              &kp P      &kp G      &kp J                        &kp L                        &kp U                 &kp Y    &kp SEMI  &kp BACKSPACE
+&kp LCTRL  &kp A         &kp R         &kp S              &kp T      &kp D      &kp H                        &kp N                        &kp E                 &kp I    &kp O     &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp K                        &kp M                        &kp COMMA             &kp DOT  &kp FSLH  &kp GRAVE
+&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 ESCAPE  &none    &to 0     &zFastLayer 7 PLUS
             >;
         };
 
