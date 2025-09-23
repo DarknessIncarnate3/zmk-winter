@@ -564,7 +564,7 @@
 &kp TAB    &kp Q         &kp W         &kp F              &kp P      &kp G      &kp J    &kp L    &kp U                 &kp Y    &kp SEMI  &kp BACKSPACE
 &kp LCTRL  &kp A         &kp R         &kp S              &kp T      &kp D      &kp H    &kp N    &kp E                 &kp I    &kp O     &kp SQT
 &kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp K    &kp M    &kp COMMA             &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &to 0    &to 0     &to 7
+&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &to 0     &to 7
             >;
         };
 
