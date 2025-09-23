@@ -234,7 +234,7 @@
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 20>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -242,7 +242,7 @@
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -250,7 +250,7 @@
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 21>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -260,7 +260,7 @@
             key-positions = <32 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         brace_right {
@@ -268,7 +268,7 @@
             key-positions = <32 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         equal {
@@ -276,7 +276,7 @@
             key-positions = <39 40>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         at {
@@ -284,7 +284,7 @@
             key-positions = <45 43>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         meta {
@@ -293,7 +293,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         meta2 {
@@ -302,7 +302,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         hash {
@@ -310,7 +310,7 @@
             key-positions = <33 32 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         percentage {
@@ -318,7 +318,7 @@
             key-positions = <45 44 43>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         dollar {
@@ -326,7 +326,7 @@
             key-positions = <33 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4>;
+            layers = <6 0 5>;
         };
 
         star {
@@ -334,7 +334,7 @@
             key-positions = <26 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         plus {
@@ -342,7 +342,7 @@
             key-positions = <14 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         minus {
@@ -350,7 +350,7 @@
             key-positions = <38 40>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         divide {
@@ -358,7 +358,7 @@
             key-positions = <38 39>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         greater {
@@ -366,7 +366,7 @@
             key-positions = <15 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         less {
@@ -374,7 +374,7 @@
             key-positions = <15 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         bracket_close {
@@ -382,7 +382,7 @@
             key-positions = <27 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         bracket_open {
@@ -390,7 +390,7 @@
             key-positions = <26 27>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         and {
@@ -398,7 +398,7 @@
             key-positions = <33 34>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         caret {
@@ -406,7 +406,7 @@
             key-positions = <13 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         tilde {
@@ -414,7 +414,7 @@
             key-positions = <25 26>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         shift {
@@ -423,7 +423,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         shift2 {
@@ -432,7 +432,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         alt2 {
@@ -441,7 +441,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
 
         alt {
@@ -450,7 +450,7 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <5 0 4 3>;
+            layers = <6 0 5 4>;
         };
     };
 
@@ -469,14 +469,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 11>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LALT>,
                 <&macro_release>,
-                <&mo 11>;
+                <&mo 0>;
         };
 
         ctrl_modlayer: ctrl_modlayer {
@@ -486,14 +486,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 13>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_CONTROL>,
                 <&macro_release>,
-                <&mo 13>;
+                <&mo 0>;
 
             label = "CTRL_MODLAYER";
         };
@@ -505,14 +505,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 14>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LEFT_GUI>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&mo 14>;
+                <&mo 0>;
 
             label = "GUI_MODLAYER";
         };
@@ -531,10 +531,10 @@
 
             bindings = <
 &kp ESC                 &kp N1                    &kp N2           &kp N3             &kp N4                &kp N5     &kp N6                       &kp N7                       &kp N8                &kp N9           &kp N0                    &kp BSPC
-&kp TAB                 &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F     &zHomeLayer 7 P       &kp G      &kp J                        &kp L                        &kp U                 &kp Y            &zHomeLayer 8 SEMICOLON   &kp BSLH
-&zFast_Mod LCTRL MINUS  &zHomeMod LEFT_CONTROL A  &zHomeLayer 4 R  &zHomeLayer 3 S    &zHomeMod LEFT_GUI T  &kp D      &kp H                        &zHomeMod LEFT_GUI N         &zHomeLayer 3 E       &zHomeLayer 4 I  &zHomeMod LEFT_CONTROL O  &zHomeLayer 7 SQT
-&kp LSHFT               &zHomeLayer 5 Z           &kp X            &kp C              &kp V                 &kp B      &kp K                        &kp M                        &kp COMMA             &kp DOT          &zHomeLayer 5 SLASH       &kp GRAVE
-&none                   &kp LEFT_GUI              &kp LEFT_ALT     &zFastLayer 4 F13  &kp SPACE             &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 3 ESCAPE  &none            &none                     &to 6
+&kp TAB                 &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F     &zHomeLayer 8 P       &kp G      &kp J                        &kp L                        &kp U                 &kp Y            &zHomeLayer 9 SEMICOLON   &kp BSLH
+&zFast_Mod LCTRL MINUS  &zHomeMod LEFT_CONTROL A  &zHomeLayer 5 R  &zHomeLayer 4 S    &zHomeMod LEFT_GUI T  &kp D      &kp H                        &zHomeMod LEFT_GUI N         &zHomeLayer 4 E       &zHomeLayer 5 I  &zHomeMod LEFT_CONTROL O  &zHomeLayer 8 SQT
+&kp LSHFT               &zHomeLayer 6 Z           &kp X            &kp C              &kp V                 &kp B      &kp K                        &kp M                        &kp COMMA             &kp DOT          &zHomeLayer 6 SLASH       &kp GRAVE
+&none                   &kp LEFT_GUI              &kp LEFT_ALT     &zFastLayer 5 F13  &kp SPACE             &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 ESCAPE  &none            &none                     &to 7
             >;
         };
 
@@ -544,7 +544,7 @@
 &kp TAB    &kp Q   &kp W   &kp F   &kp P      &kp G      &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSLH
 &kp LCTRL  &kp A   &kp R   &kp S   &kp T      &kp D      &kp H    &kp N    &kp E      &kp I    &kp O     &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 6
+&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 7
             >;
         };
 
@@ -554,7 +554,17 @@
 &kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T      &kp Y    &kp U    &kp I      &kp O    &kp P     &kp BSLH
 &kp LCTRL  &kp A   &kp S   &kp D   &kp F      &kp G      &kp H    &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp N    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 6
+&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 7
+            >;
+        };
+
+        temp_cole {
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 7
             >;
         };
 
@@ -564,7 +574,7 @@
 &kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN        &kp GREATER_THAN      &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON  &none
 &kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp ASTERISK   &kp SQT
 &none              &kp HASH     &kp UNDERSCORE  &kp AMPERSAND        &kp NON_US_BACKSLASH  &kp GRAVE    &kp TILDE        &kp SLASH             &kp COMMA              &kp PERIOD  &kp QUESTION   &none
-&none              &none        &none           &zFastLayer 4 SPACE  &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &kp LEFT_SHIFT         &to 0       &none          &to 6
+&none              &none        &none           &zFastLayer 5 SPACE  &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &kp LEFT_SHIFT         &to 0       &none          &to 7
             >;
         };
 
@@ -574,7 +584,7 @@
 &kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3               &kp LC(X)            &kp ASTERISK  &kp HOME  &kp PG_DN                    &kp PG_UP     &kp END    &none
 &kp LSHFT  &kp N0     &kp N4  &kp N5  &kp N6               &kp LC(C)            &kp PLUS      &kp LEFT  &kp DOWN                     &kp UP        &kp RIGHT  &kp FSLH
 &kp LALT   &kp DOT    &kp N7  &kp N8  &kp N9               &kp LC(V)            &kp MINUS     &none     &none                        &none         &none      &none
-&none      &none      &none   &none   &zFastLayer 8 ENTER  &zFastLayer 8 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &to 6
+&none      &none      &none   &none   &zFastLayer 9 ENTER  &zFastLayer 9 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &to 7
             >;
         };
 
@@ -584,7 +594,7 @@
 &kp TAB    &kp Q   &kp W   &kp F   &kp P      &kp G      &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSLH
 &kp LCTRL  &kp A   &kp R   &kp S   &kp T      &kp D      &kp H    &kp N    &kp E      &kp I    &kp O     &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 6
+&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 7
             >;
         };
 
@@ -592,9 +602,9 @@
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
 &none  &none  &to 1  &to 2  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &to 0  &none  &to 5  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+&none  &to 0  &none  &to 6  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
 &none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &to 6
+&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &to 7
             >;
         };
 
@@ -604,7 +614,7 @@
 &none  &none  &none  &none  &none  &to 0  &none  &none  &none     &none     &none   &none
 &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
 &none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &to 6
+&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &to 7
             >;
         };
 
@@ -614,17 +624,7 @@
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 6
-            >;
-        };
-
-        layer_9 {
-            bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 6
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &to 7
             >;
         };
     };
