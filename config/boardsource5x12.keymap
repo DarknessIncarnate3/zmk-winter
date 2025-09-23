@@ -534,7 +534,7 @@
 &kp TAB                 &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F     &zHomeLayer 8 P       &kp G      &kp J                        &kp L                        &kp U                 &kp Y            &zHomeLayer 9 SEMICOLON   &kp BACKSPACE
 &zFast_Mod LCTRL MINUS  &zHomeMod LEFT_CONTROL A  &zHomeLayer 5 R  &zHomeLayer 4 S    &zHomeMod LEFT_GUI T  &kp D      &kp H                        &zHomeMod LEFT_GUI N         &zHomeLayer 4 E       &zHomeLayer 5 I  &zHomeMod LEFT_CONTROL O  &zHomeLayer 8 SQT
 &kp LSHFT               &zHomeLayer 6 Z           &kp X            &kp C              &kp V                 &kp B      &kp K                        &kp M                        &kp COMMA             &kp DOT          &zHomeLayer 6 SLASH       &kp GRAVE
-&to 3                   &kp LEFT_GUI              &kp LEFT_ALT     &zFastLayer 5 F13  &kp SPACE             &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 ESCAPE  &none            &none                     &to 7
+&to 3                   &kp LEFT_GUI              &kp LEFT_ALT     &zFastLayer 5 F13  &kp SPACE             &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 ESCAPE  &none            &none                     &zFastLayer 7 PLUS
             >;
         };
 
