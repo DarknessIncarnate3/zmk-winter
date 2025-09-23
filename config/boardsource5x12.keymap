@@ -318,7 +318,7 @@
             key-positions = <45 44 43>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         dollar {
@@ -326,7 +326,7 @@
             key-positions = <33 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5>;
+            layers = <6 0 5 3 4>;
         };
 
         star {
@@ -334,7 +334,7 @@
             key-positions = <26 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         plus {
@@ -342,7 +342,7 @@
             key-positions = <14 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         minus {
@@ -350,7 +350,7 @@
             key-positions = <38 40>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         divide {
@@ -358,7 +358,7 @@
             key-positions = <38 39>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         greater {
@@ -366,7 +366,7 @@
             key-positions = <15 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         less {
@@ -374,7 +374,7 @@
             key-positions = <15 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         bracket_close {
@@ -382,7 +382,7 @@
             key-positions = <27 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         bracket_open {
@@ -390,7 +390,7 @@
             key-positions = <26 27>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         and {
@@ -398,7 +398,7 @@
             key-positions = <33 34>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         caret {
@@ -406,7 +406,7 @@
             key-positions = <13 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         tilde {
@@ -414,7 +414,7 @@
             key-positions = <25 26>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
+            layers = <6 0 5 4 3>;
         };
 
         shift {
