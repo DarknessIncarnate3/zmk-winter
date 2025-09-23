@@ -638,6 +638,16 @@
             >;
         };
 
+        tControl {
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+            >;
+        };
+
         tAlt {
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
