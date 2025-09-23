@@ -232,7 +232,7 @@
         compatible = "zmk,behavior-tap-dance";
         label = "YBOOTLOADER";
         #binding-cells = <0>;
-        bindings = <&none>, <&bootloader>;
+        bindings = <&kp R>, <&bootloader>;
     };
 
     combos {
