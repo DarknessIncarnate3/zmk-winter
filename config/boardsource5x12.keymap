@@ -544,7 +544,7 @@
 &kp TAB    &kp Q   &kp W   &kp F   &kp P      &kp G      &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSLH
 &kp LCTRL  &kp A   &kp R   &kp S   &kp T      &kp D      &kp H    &kp N    &kp E      &kp I    &kp O     &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &to 7
+&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &zFastLayer 7 PLUS
             >;
         };
 
@@ -554,7 +554,7 @@
 &kp TAB    &kp Q         &kp W         &kp E              &kp R      &kp T      &kp Y    &kp U    &kp I                 &kp O    &kp P     &kp BSLH
 &kp LCTRL  &kp A         &kp S         &kp D              &kp F      &kp G      &kp H    &kp J    &kp K                 &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp N    &kp M    &kp COMMA             &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &none     &to 7
+&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &none     &zFastLayer 7 PLUS
             >;
         };
 
@@ -564,7 +564,7 @@
 &kp TAB    &kp Q         &kp W         &kp F              &kp P      &kp G      &kp J    &kp L    &kp U                 &kp Y    &kp SEMI  &kp BACKSPACE
 &kp LCTRL  &kp A         &kp R         &kp S              &kp T      &kp D      &kp H    &kp N    &kp E                 &kp I    &kp O     &kp SQT
 &kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp K    &kp M    &kp COMMA             &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &to 0     &to 7
+&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 F13  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 ESCAPE  &none    &to 0     &zFastLayer 7 PLUS
             >;
         };
 
@@ -574,7 +574,7 @@
 &kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN        &kp GREATER_THAN      &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON  &none
 &kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp ASTERISK   &kp SQT
 &none              &kp HASH     &kp UNDERSCORE  &kp AMPERSAND        &kp NON_US_BACKSLASH  &kp GRAVE    &kp TILDE        &kp SLASH             &kp COMMA              &kp PERIOD  &kp QUESTION   &none
-&none              &none        &none           &zFastLayer 5 SPACE  &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &to 0                  &none       &none          &to 7
+&none              &none        &none           &zFastLayer 5 SPACE  &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &to 0                  &none       &none          &zFastLayer 7 PLUS
             >;
         };
 
@@ -584,7 +584,7 @@
 &kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3               &kp LC(X)            &kp ASTERISK  &kp HOME  &kp PG_DN                    &kp PG_UP     &kp END    &none
 &kp LSHFT  &kp N0     &kp N4  &kp N5  &kp N6               &kp LC(C)            &kp PLUS      &kp LEFT  &kp DOWN                     &kp UP        &kp RIGHT  &kp FSLH
 &kp LALT   &kp DOT    &kp N7  &kp N8  &kp N9               &kp LC(V)            &kp MINUS     &none     &none                        &none         &none      &none
-&none      &none      &none   &to 0   &zFastLayer 9 ENTER  &zFastLayer 9 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &to 7
+&none      &none      &none   &to 0   &zFastLayer 9 ENTER  &zFastLayer 9 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &zFastLayer 7 PLUS
             >;
         };
 
