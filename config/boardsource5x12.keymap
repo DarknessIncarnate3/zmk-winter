@@ -600,11 +600,11 @@
 
         fn {
             bindings = <
-&none  &none  &none  &none   &none   &none  &none  &none  &none     &none     &none   &none
-&none  &none  &to 1  &to 2   &to 3   &none  &none  &none  &none     &none     &none   &none
-&none  &to 0  &to 4  &to 5   &to 6   &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-&none  &none  &to 8  &to 10  &to 15  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none   &none   &none  &none  &none  &none     &none     &none   &zFastLayer 7 PLUS
+&none         &none  &none  &none   &none   &none         &none  &none  &none     &none     &none   &none
+&bt BT_SEL 0  &none  &to 1  &to 2   &to 3   &bt BT_SEL 3  &none  &none  &none     &none     &none   &none
+&bt BT_SEL 1  &to 0  &to 4  &to 5   &to 6   &bt BT_SEL 4  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+&bt BT_SEL 2  &none  &to 8  &to 10  &to 15  &none         &none  &none  &none     &none     &none   &none
+&none         &none  &none  &none   &none   &none         &none  &none  &none     &none     &none   &zFastLayer 7 PLUS
             >;
         };
 
