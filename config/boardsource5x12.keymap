@@ -242,7 +242,7 @@
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
-            layers = <6 0 5 4 3>;
+            layers = <6 0 5 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -250,7 +250,7 @@
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 21>;
-            layers = <6 0 5 4 3>;
+            layers = <6 0 5 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
