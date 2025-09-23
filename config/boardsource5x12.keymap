@@ -650,11 +650,11 @@
 
         tAlt {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &zFastLayer 7 PLUS
+&none  &none  &none      &none        &none      &none      &none      &none      &none      &none      &none      &none
+&none  &none  &kp LCTRL  &none        &kp D      &kp F4     &kp P      &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &none
+&none  &none  &kp LSHFT  &kp LS(TAB)  &kp TAB    &none      &none      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none
+&none  &none  &none      &none        &none      &none      &none      &none      &none      &none      &kp A      &none
+&none  &none  &none      &kp ESC      &kp ENTER  &kp ENTER  &kp SPACE  &kp SPACE  &none      &none      &none      &zFastLayer 7 PLUS
             >;
         };
 
