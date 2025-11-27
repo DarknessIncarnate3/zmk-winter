@@ -241,7 +241,6 @@
         paren_open {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <19 20>;
-            layers = <6 0 5 4 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -249,7 +248,6 @@
         paren_close {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
-            layers = <6 0 5 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -257,7 +255,6 @@
         quote_all {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 21>;
-            layers = <6 0 5 3>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
         };
@@ -267,7 +264,6 @@
             key-positions = <32 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         brace_right {
@@ -275,7 +271,6 @@
             key-positions = <32 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         equal {
@@ -283,7 +278,6 @@
             key-positions = <39 40>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         at {
@@ -291,7 +285,6 @@
             key-positions = <45 43>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         meta {
@@ -300,7 +293,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4 3>;
         };
 
         meta2 {
@@ -309,7 +301,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4 3>;
         };
 
         hash {
@@ -317,7 +308,6 @@
             key-positions = <33 32 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         percentage {
@@ -325,7 +315,6 @@
             key-positions = <45 44 43>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         dollar {
@@ -333,7 +322,6 @@
             key-positions = <33 31>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         star {
@@ -341,7 +329,6 @@
             key-positions = <26 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         plus {
@@ -349,7 +336,6 @@
             key-positions = <14 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         minus {
@@ -357,7 +343,6 @@
             key-positions = <38 40>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         divide {
@@ -365,7 +350,6 @@
             key-positions = <38 39>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         greater {
@@ -373,7 +357,6 @@
             key-positions = <15 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         less {
@@ -381,7 +364,6 @@
             key-positions = <15 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         bracket_close {
@@ -389,7 +371,6 @@
             key-positions = <27 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         bracket_open {
@@ -397,7 +378,6 @@
             key-positions = <26 27>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         and {
@@ -405,7 +385,6 @@
             key-positions = <33 34>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         caret {
@@ -413,7 +392,6 @@
             key-positions = <13 14>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         tilde {
@@ -421,7 +399,6 @@
             key-positions = <25 26>;
             timeout-ms = <30>;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 3>;
         };
 
         shift {
@@ -430,7 +407,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
         };
 
         shift2 {
@@ -439,7 +415,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
         };
 
         alt2 {
@@ -448,7 +423,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
         };
 
         alt {
@@ -457,7 +431,6 @@
             timeout-ms = <30>;
             slow-release;
             require-prior-idle-ms = <5>;
-            layers = <6 0 5 4>;
         };
     };
 
@@ -476,14 +449,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 12>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LALT>,
                 <&macro_release>,
-                <&mo 12>;
+                <&mo 0>;
         };
 
         ctrl_modlayer: ctrl_modlayer {
@@ -493,14 +466,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 11>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LEFT_CONTROL>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_CONTROL>,
                 <&macro_release>,
-                <&mo 11>;
+                <&mo 0>;
 
             label = "CTRL_MODLAYER";
         };
@@ -512,14 +485,14 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 14>,
+                <&mo 0>,
                 <&macro_press>,
                 <&kp LEFT_GUI>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&mo 14>;
+                <&mo 0>;
 
             label = "GUI_MODLAYER";
         };
@@ -528,170 +501,23 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            // ------------------------------------------------------------------------------------------
-            // |  ESC  |  1*  |  2*  |  3*  |     4*    |   5*  |   6*   |    7*    |  8*  |  9*  |   0*  | BSPC  |
-            // |  TAB  |  Q   |  W   |  E   |     R     |   T   |   Y    |    U     |  I   |  O   |   P   |   '*  |
-            // |   `*  |  A   |  S   |  D   |     F     |   G   |   H    |    J     |  K   |  L   |   ;*  | ENTER |
-            // | SHIFT |  Z   |  X   |  C   |     V     |   B   |   N    |    M     |  ,*  |  .*  | UARW  |  /*   |
-            // | LCTL  | LGUI | LALT | LOWR | 2uSpace(a)|4uSpace|  N/A** |2uSpace(b)| RAIS | LARW | DARW  | RARW  |
-
+        layer_0 {
             bindings = <
-&kp ESC                 &kp N1                    &kp N2           &kp N3                &kp N4                &kp N5     &kp N6                       &kp N7                       &kp N8             &kp N9           &kp N0                    &kp BACKSPACE
-&kp TAB                 &zHome_alt 0 Q            &zHome_ctrl 0 W  &zHome_gui 0 F        &zHomeLayer 8 P       &kp G      &kp J                        &kp L                        &kp U              &kp Y            &zHomeLayer 9 SEMICOLON   &kp BACKSLASH
-&zFast_Mod LCTRL MINUS  &zHomeMod LEFT_CONTROL A  &zHomeLayer 5 R  &zHomeLayer 4 S       &zHomeMod LEFT_GUI T  &kp D      &kp H                        &zHomeMod LEFT_GUI N         &zHomeLayer 4 E    &zHomeLayer 5 I  &zHomeMod LEFT_CONTROL O  &zHomeLayer 8 SQT
-&kp LSHFT               &zHomeLayer 6 Z           &kp X            &kp C                 &kp V                 &kp B      &kp K                        &kp M                        &kp COMMA          &kp DOT          &zHomeLayer 6 SLASH       &kp GRAVE
-&to 3                   &kp LEFT_GUI              &kp LEFT_ALT     &zFastLayer 5 ESCAPE  &kp SPACE             &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 F13  &none            &kp T                     &zFastLayer 7 PLUS
+&kp ESC    &kp N1     &kp N2  &kp N3               &kp N4     &kp N5     &kp N6    &kp N7    &kp N8     &kp N9    &kp N0    &kp BSPC
+&kp TAB    &kp Q      &kp W   &kp F                &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y     &kp SEMI  &kp BSPC
+&kp LCTRL  &kp A      &kp R   &kp S                &kp T      &kp D      &kp H     &kp N     &kp E      &kp I     &kp O     &kp ENTER
+&kp LSHFT  &kp Z      &kp X   &kp C                &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
+&kp LALT   &kp GRAVE  &trans  &zFastLayer 1 GRAVE  &kp SPACE  &kp SPACE  &kp BSPC  &kp BSPC  &kp RGUI   &kp RALT  &trans    &trans
             >;
         };
 
-        game {
+        layer_1 {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4     &kp N5     &kp N6   &kp N7   &kp N8     &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q   &kp W   &kp F   &kp P      &kp G      &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSLH
-&kp LCTRL  &kp A   &kp R   &kp S   &kp T      &kp D      &kp H    &kp N    &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &zFastLayer 7 PLUS
-            >;
-        };
-
-        qwerty {
-            bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3                &kp N4     &kp N5     &kp N6   &kp N7   &kp N8             &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q         &kp W         &kp E                 &kp R      &kp T      &kp Y    &kp U    &kp I              &kp O    &kp P     &kp BSLH
-&kp LCTRL  &kp A         &kp S         &kp D                 &kp F      &kp G      &kp H    &kp J    &kp K              &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C                 &kp V      &kp B      &kp N    &kp M    &kp COMMA          &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 ESCAPE  &kp SPACE  &kp SPACE  &kp RET  &kp RET  &zFastLayer 4 F13  &none    &none     &zFastLayer 7 PLUS
-            >;
-        };
-
-        temp_cole {
-            bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3             &kp N4     &kp N5     &kp N6                       &kp N7                       &kp N8             &kp N9   &kp N0    &kp DELETE
-&kp TAB    &kp Q         &kp W         &kp F              &kp P      &kp G      &kp J                        &kp L                        &kp U              &kp Y    &kp SEMI  &kp BACKSPACE
-&kp LCTRL  &kp A         &kp R         &kp S              &kp T      &kp D      &kp H                        &kp N                        &kp E              &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C              &kp V      &kp B      &kp K                        &kp M                        &kp COMMA          &kp DOT  &kp FSLH  &kp GRAVE
-&none      &kp LEFT_GUI  &kp LEFT_ALT  &zFastLayer 5 ESC  &kp SPACE  &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 4 F13  &none    &to 0     &zFastLayer 7 PLUS
-            >;
-        };
-
-        sym {
-            bindings = <
-&kp ESC            &kp N1       &kp N2          &kp N3               &kp N4                &kp N5       &kp N6           &kp N7                &kp N8                 &kp N9      &kp N0         &kp BSPC
-&kp TAB            &kp PERCENT  &kp MINUS       &kp LESS_THAN        &kp GREATER_THAN      &kp PLUS     &kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON  &none
-&kp DOUBLE_QUOTES  &kp LCTRL    &kp DOLLAR      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp ASTERISK   &kp SQT
-&none              &kp HASH     &kp UNDERSCORE  &kp AMPERSAND        &kp NON_US_BACKSLASH  &kp GRAVE    &kp TILDE        &kp SLASH             &kp COMMA              &kp PERIOD  &kp QUESTION   &none
-&none              &none        &none           &zFastLayer 5 SPACE  &key_repeat           &key_repeat  &kp ENTER        &kp ENTER             &to 0                  &none       &none          &zFastLayer 7 PLUS
-            >;
-        };
-
-        num {
-            bindings = <
-&none      &none      &none   &none   &none                &none                &none         &none     &none                        &none         &none      &none
-&kp TAB    &kp COMMA  &kp N1  &kp N2  &kp N3               &kp LC(X)            &kp ASTERISK  &kp HOME  &kp PG_DN                    &kp PG_UP     &kp END    &none
-&kp LSHFT  &kp N0     &kp N4  &kp N5  &kp N6               &kp LC(C)            &kp PLUS      &kp LEFT  &kp DOWN                     &kp UP        &kp RIGHT  &kp FSLH
-&kp LALT   &kp DOT    &kp N7  &kp N8  &kp N9               &kp LC(V)            &kp MINUS     &none     &none                        &none         &none      &none
-&none      &none      &none   &to 0   &zFastLayer 9 ENTER  &zFastLayer 9 ENTER  &to 0         &to 0     &zFast_Mod LEFT_SHIFT SPACE  &kp LEFT_GUI  &none      &zFastLayer 7 PLUS
-            >;
-        };
-
-        repeat {
-            bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4     &kp N5     &kp N6   &kp N7   &kp N8     &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q   &kp W   &kp F   &kp P      &kp G      &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSLH
-&kp LCTRL  &kp A   &kp R   &kp S   &kp T      &kp D      &kp H    &kp N    &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-&none      &none   &none   &none   &kp SPACE  &kp SPACE  &kp RET  &kp RET  &none      &to 0    &none     &zFastLayer 7 PLUS
-            >;
-        };
-
-        fn {
-            bindings = <
-&none         &none  &none  &none   &none   &none         &none  &none  &none  &none  &none  &yBtClear
-&bt BT_SEL 0  &none  &to 1  &to 2   &to 3   &bt BT_SEL 3  &none  &none  &none  &none  &none  &none
-&bt BT_SEL 1  &to 0  &to 4  &to 5   &to 6   &bt BT_SEL 4  &none  &none  &none  &none  &none  &yBootloader
-&bt BT_SEL 2  &none  &to 8  &to 10  &to 15  &yOutput      &none  &none  &none  &none  &none  &to 15
-&none         &none  &none  &none   &none   &none         &none  &none  &none  &none  &kp A  &zFastLayer 7 PLUS
-            >;
-        };
-
-        f1 {
-            bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &to 0  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none     &none     &none   &zFastLayer 7 PLUS
-            >;
-        };
-
-        ql {
-            bindings = <
-&none  &none  &none  &none  &none        &none        &none       &none          &none              &none  &none  &none
-&none  &none  &none  &none  &none        &none        &none       &kp DELETE     &kp LC(DELETE)     &none  &none  &none
-&none  &none  &none  &none  &kp F13      &none        &none       &kp BACKSPACE  &kp LC(BACKSPACE)  &none  &none  &none
-&none  &none  &none  &none  &none        &none        &none       &kp LC(S)      &kp LC(LS(S))      &none  &none  &none
-&none  &none  &none  &none  &key_repeat  &key_repeat  &caps_word  &caps_word     &none              &none  &none  &zFastLayer 7 PLUS
-            >;
-        };
-
-        mouse {
-            bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &zFastLayer 7 PLUS
-            >;
-        };
-
-        tControl {
-            bindings = <
-&none        &none      &none  &none        &none      &none    &none    &none     &none      &none      &none    &none
-&kp LS(ESC)  &kp LSHFT  &none  &kp Z        &kp Y      &kp Q    &kp T    &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &none
-&kp LA(DEL)  &kp A      &none  &kp LS(TAB)  &kp TAB    &kp W    &none    &kp BSPC  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT
-&none        &none      &none  &kp P        &kp LS(N)  &kp N    &none    &kp C     &kp V      &kp X      &kp A    &none
-&none        &none      &none  &kp SPACE    &kp ESC    &kp ESC  &kp RET  &kp RET   &none      &none      &none    &zFastLayer 7 PLUS
-            >;
-        };
-
-        tAlt {
-            bindings = <
-&none  &none  &none      &none        &none      &none      &none      &none      &none      &none      &none      &none
-&none  &none  &kp LCTRL  &none        &kp D      &kp F4     &kp P      &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &none
-&none  &none  &kp LSHFT  &kp LS(TAB)  &kp TAB    &none      &none      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none
-&none  &none  &none      &none        &none      &none      &none      &none      &none      &none      &kp A      &none
-&none  &none  &none      &kp ESC      &kp ENTER  &kp ENTER  &kp SPACE  &kp SPACE  &none      &none      &none      &zFastLayer 7 PLUS
-            >;
-        };
-
-        entry {
-            bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &zFastLayer 7 PLUS
-            >;
-        };
-
-        tGui {
-            bindings = <
-&none        &none        &none      &none  &none    &none    &none      &none      &none      &none      &none       &none
-&kp ESC      &kp LCTRL    &kp LSHFT  &none  &kp E    &kp Q    &none      &kp HOME   &kp PG_UP  &kp PG_DN  &kp END     &kp PRINTSCREEN
-&kp LA(DOT)  &kp LS(TAB)  &kp LS(S)  &none  &kp TAB  &kp W    &kp PLUS   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp PAUSE_BREAK
-&kp X        &kp P        &kp LC(D)  &kp M  &kp D    &kp L    &kp MINUS  &kp R      &kp V      &none      &kp LC(F4)  &none
-&none        &none        &none      &none  &kp RET  &kp RET  &kp SPACE  &kp SPACE  &none      &none      &none       &zFastLayer 7 PLUS
-            >;
-        };
-
-        media {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &zFastLayer 7 PLUS
+&kp GRAVE  &kp F1     &kp F2  &kp F3  &kp F4     &kp F5     &kp F6    &kp F7    &kp F8  &kp F9  &kp F10  &trans
+&trans     &kp COMMA  &kp N1  &kp N2  &kp N3     &trans     &trans    &trans    &trans  &trans  &trans   &trans
+&trans     &kp N0     &kp N4  &kp N5  &kp N6     &trans     &trans    &trans    &trans  &trans  &trans   &trans
+&trans     &kp DOT    &kp N7  &kp N8  &kp N9     &trans     &trans    &trans    &trans  &trans  &trans   &trans
+&trans     &trans     &trans  &trans  &kp SPACE  &kp SPACE  &kp BSPC  &kp BSPC  &trans  &trans  &trans   &trans
             >;
         };
     };
