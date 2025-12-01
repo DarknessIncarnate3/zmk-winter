@@ -23,7 +23,7 @@
         require-prior-idle-ms = <130>;
     };
 
-  zFast_Mod: zFast_Mod {
+    zFast_Mod: zFast_Mod {
         compatible = "zmk,behavior-hold-tap";
         label = "ZFAST_MOD";
         bindings = <&kp>, <&kp>;
@@ -32,6 +32,7 @@
         tapping-term-ms = <200>;
         hold-while-undecided;
     };
+
     zHomeLayer: zHomeLayer {
         compatible = "zmk,behavior-hold-tap";
         label = "ZHOMELAYER";
@@ -61,11 +62,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1               &kp N2  &kp N3          &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9   &kp N0        &kp BSPC
-&kp TAB    &kp Q                &kp W   &kp F           &kp P      &kp G      &kp J      &kp L      &kp U      &kp Y    &kp SEMI      &kp NON_US_BACKSLASH
-&kp LCTRL  &kp A                &kp R   &kp S           &kp T      &kp D      &kp H      &kp N      &kp E      &kp I    &kp O         &kp SQT
-&kp LSHFT  &kp Z                &kp X   &kp C           &kp V      &kp B      &kp K      &kp M      &kp COMMA  &kp DOT  &kp FSLH      &kp MINUS
-&kp LALT   &zFastLayer 1 GRAVE  &trans  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &kp ENTER  &kp ENTER  &none      &none    &kp LEFT_GUI  &trans
+&kp ESC    &kp N1               &kp N2  &kp N3          &kp N4     &kp N5     &kp N6                       &kp N7                       &kp N8     &kp N9   &kp N0        &kp BSPC
+&kp TAB    &kp Q                &kp W   &kp F           &kp P      &kp G      &kp J                        &kp L                        &kp U      &kp Y    &kp SEMI      &kp NON_US_BACKSLASH
+&kp LCTRL  &kp A                &kp R   &kp S           &kp T      &kp D      &kp H                        &kp N                        &kp E      &kp I    &kp O         &kp SQT
+&kp LSHFT  &kp Z                &kp X   &kp C           &kp V      &kp B      &kp K                        &kp M                        &kp COMMA  &kp DOT  &kp FSLH      &kp MINUS
+&kp LALT   &zFastLayer 1 GRAVE  &trans  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &none      &none    &kp LEFT_GUI  &trans
             >;
         };
 
