@@ -72,11 +72,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4     &kp F5     &kp F6    &kp F7    &kp F8  &kp F9  &kp F10  &kp F11
-&trans     &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans  &trans  &trans   &kp F12
-&trans     &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans  &trans  &trans   &trans
-&trans     &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans  &trans  &trans   &trans
-&trans     &trans  &trans  &trans  &kp SPACE  &kp SPACE  &kp BSPC  &kp BSPC  &trans  &trans  &trans   &trans
+&kp GRAVE  &kp F1           &kp F2     &kp F3     &kp F4     &kp F5     &kp F6    &kp F7    &kp F8  &kp F9  &kp F10  &kp F11
+&kp        &kp KP_NUMBER_1  &kp        &kp KP_N2  &kp KP_N3  &kp        &kp       &kp       &kp     &kp     &kp      &kp F12
+&kp        &kp              &kp        &kp        &kp KP_N4  &kp        &kp       &kp       &kp     &kp     &kp      &kp
+&kp        &kp KP_N5        &kp KP_N6  &kp KP_N7  &kp KP_N8  &kp        &kp       &kp       &kp     &kp     &kp      &kp
+&kp        &kp              &kp        &kp        &kp SPACE  &kp SPACE  &kp BSPC  &kp BSPC  &kp     &kp     &kp      &kp
             >;
         };
 
