@@ -68,7 +68,7 @@
 &kp TAB    &kp Q                &kp W   &kp F           &kp P      &kp G      &kp J                        &kp L                        &kp U                 &kp Y    &kp SEMI      &kp NON_US_BACKSLASH
 &kp LCTRL  &kp A                &kp R   &kp S           &kp T      &kp D      &kp H                        &kp N                        &kp E                 &kp I    &kp O         &kp SQT
 &kp LSHFT  &kp Z                &kp X   &kp C           &kp V      &kp B      &kp K                        &kp M                        &kp COMMA             &kp DOT  &kp FSLH      &kp MINUS
-&kp LALT   &zFastLayer 1 GRAVE  &trans  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 2 ESCAPE  &none    &kp LEFT_GUI  &zFastLayer 3 MINUS
+&kp LALT   &zFastLayer 1 GRAVE  &none   &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &zFast_Mod LEFT_SHIFT ENTER  &zFast_Mod LEFT_SHIFT ENTER  &zFastLayer 2 ESCAPE  &none    &kp LEFT_GUI  &zFastLayer 3 MINUS
             >;
         };
 
@@ -94,11 +94,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
-&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &out OUT_USB
-&trans  &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &out OUT_BLE
-&trans  &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none         &none         &none         &none  &none  &none  &none  &none  &none  &bt BT_CLR
+&none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &out OUT_TOG
+&none  &none  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none  &none  &none  &none  &none  &none  &out OUT_USB
+&none  &none  &none         &none         &none         &none  &none  &none  &none  &none  &none  &out OUT_BLE
+&none  &none  &none         &none         &none         &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
